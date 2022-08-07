@@ -1,9 +1,114 @@
-<mxfile host="app.diagrams.net" modified="2022-08-07T05:03:44.331Z" agent="5.0 (Macintosh)" etag="K7zEyvNCiAAcVjc5IxpC" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-07T05:16:22.495Z" agent="5.0 (Macintosh)" etag="pWjRv3sJ7xf8ztKYjcVf" version="20.2.3" type="github">
   <diagram id="4dTw7T-u25xvdelndL4p" name="第 1 页">
     <mxGraphModel dx="1018" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Astxlehou0ugHTaAHLLP-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Astxlehou0ugHTaAHLLP-1" target="Astxlehou0ugHTaAHLLP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Astxlehou0ugHTaAHLLP-1" target="Astxlehou0ugHTaAHLLP-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-1" value="signing server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-2" value="HPCS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-3" value="DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="100" y="114" width="20" height="1870" as="geometry" />
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-8" value="API Client" style="text;html=1;strokeColor=#457B9D;fillColor=#A8DADC;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="80" y="81" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-9" value="签名服务器" style="text;html=1;strokeColor=#457B9D;fillColor=#A8DADC;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="240" y="81" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-10" value="HPCS" style="text;html=1;strokeColor=#457B9D;fillColor=#A8DADC;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="452" y="81" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-11" value="HPDBaaS&lt;br&gt;密钥持久化" style="text;html=1;strokeColor=#457B9D;fillColor=#A8DADC;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="630" y="81" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="285" y="114" width="20" height="1870" as="geometry" />
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="472" y="114" width="20" height="1870" as="geometry" />
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="655" y="114" width="20" height="1870" as="geometry" />
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="140" as="sourcePoint" />
+            <mxPoint x="270" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-20" value="发起导入私钥请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="151" y="114" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="160" as="sourcePoint" />
+            <mxPoint x="470" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-22" value="请求产生 AES密钥 " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="130" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="464" y="200" as="sourcePoint" />
+            <mxPoint x="314" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-24" value="返回被包裹的AES密钥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="170" width="126" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="314" y="240" as="sourcePoint" />
+            <mxPoint x="464" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-27" value="加密私钥请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-28" value="解包裹AES密钥，并加密私钥" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="422" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="350" as="sourcePoint" />
+            <mxPoint x="310" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-30" value="返回被加密是私钥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="315" y="320" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="390" as="sourcePoint" />
+            <mxPoint x="650" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-32" value="持久化被包裹的AES密钥与被加密的私钥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="360" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="430" as="sourcePoint" />
+            <mxPoint x="130" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-35" value="导入成功，返回ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
