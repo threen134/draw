@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-07T05:16:22.495Z" agent="5.0 (Macintosh)" etag="pWjRv3sJ7xf8ztKYjcVf" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-07T05:32:00.414Z" agent="5.0 (Macintosh)" etag="gOsPcJi1tP74dhqVLlwJ" version="20.2.3" type="github">
   <diagram id="4dTw7T-u25xvdelndL4p" name="第 1 页">
-    <mxGraphModel dx="1018" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1845" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -108,6 +108,51 @@
         </mxCell>
         <mxCell id="Astxlehou0ugHTaAHLLP-35" value="导入成功，返回ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="400" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-36" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="30" y="480" width="676" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-37" value="导入流程结束" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="450" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-38" value="开始私钥签名流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="510" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.239;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Astxlehou0ugHTaAHLLP-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="460" as="sourcePoint" />
+            <mxPoint x="280" y="561" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-40" value="签名请求 ID/data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.255;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Astxlehou0ugHTaAHLLP-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="590" as="sourcePoint" />
+            <mxPoint x="490" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-42" value="根据ID 提取数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="560" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="650" as="sourcePoint" />
+            <mxPoint x="310" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-44" value="返回被包裹的key，与被加密的私钥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="396" y="630" width="224" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-46" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="700" as="sourcePoint" />
+            <mxPoint x="470" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Astxlehou0ugHTaAHLLP-47" value="解密私钥请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="335" y="670" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
