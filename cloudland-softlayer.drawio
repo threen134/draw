@@ -369,7 +369,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7RPe7mnU2hDVhqGKqOx9-160" value="IBM VPC 环境" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="125" y="2371" width="120" height="60" as="geometry" />
+          <mxGeometry x="147.5" y="2367" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7RPe7mnU2hDVhqGKqOx9-233" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7RPe7mnU2hDVhqGKqOx9-161" target="7RPe7mnU2hDVhqGKqOx9-160">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="51" y="2397" />
+              <mxPoint x="101" y="2397" />
+              <mxPoint x="101" y="2401" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="7RPe7mnU2hDVhqGKqOx9-161" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/vpc/TransitGateway.svg;" vertex="1" parent="1">
           <mxGeometry x="26" y="2340" width="50" height="50" as="geometry" />
